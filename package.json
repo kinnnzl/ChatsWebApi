@@ -1,0 +1,22 @@
+{
+  "name": "os_server_docker",
+  "version": "1.0.0",
+  "description": "Sample test server nodejs",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ."
+  },
+  "author": "Kittithee Thaweesuk",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "firebase-admin": "^8.12.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1"
+  }
+}
