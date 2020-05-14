@@ -11,7 +11,7 @@ app.use(bodyParser.json());
 require('./routes/chatRoutes')(app, express);
 require('./routes/versionRoutes')(app, config);
 
-app.listen(3000, () => {
+app.listen(process.env.PORT || 3000, () => {
   /* eslint-disable */
   console.log('Server up!');
 });
